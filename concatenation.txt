@@ -1,0 +1,79 @@
+What is concatenation
+Method of concatenation
+inbuilt python function (At least 5)
+
+Answer
+Concatenation is a process of combining two or more strings into a single larger string. It's an important in programming and computing because it allows you to store and combine multiple piece of data when needed.
+
+Method of Concatenation
+
+Concatenation is the process of appending one string to the end of another string. You concatenation strings by using the + operator, using join() String concatenation using percentage % operator
+String concatenation using format () function
+String concatenation using f-strings
+String concatenation using + operator
+
+Inbuilt python function;
+(1) abs() Return the absolute value of a number. The argument may be an integer, a floating point number or an object implementing
+(2) aiter() Return an asynchronous iterator for an asynchronous iterable. Equivalent to calling x._aiter_() unlike iter(), aiter() has no two-argument variant
+(3) any(iterable) Return true if any element odf the iterable is true. If the iterable is empty return False.
+def any(iterable):
+    for element in iterable:
+        if element:
+            return True
+    return False
+
+(4) ascii()
+As repr(), return a string containing a printable representation of an object, but escape the non-ASCII characters in the string returned by repr() using /x, /u, or /U escape. This generates a string similar to that returned by repr() in python 2
+
+(5) bin(x) Convert an integer number to a binary string prefixed with "ob". The result is valid python expression. If x is not a python int object, it has to define an _index_() method that return an integer.
+bin(3)
+'0b11'
+bin(-10)
+'-0b1010
+
+format(14, '#b'), format(14, 'b')
+('0b1110', '1110')
+f'{14:#b}', f'{14:b}'
+('0b1110', '1110')
+
+class bool(object=False, /)
+Return a Boolean value, i.e. one of True or False. The argument is converted using the standard truth testing procedure. If the argument is false or omitted, this returns False; otherwise, it returns True. The bool class is a subclass of int (see Numeric Types — int, float, complex). It cannot be subclassed further. Its only instances are False and True (see Boolean Type - bool).
+
+
+What is a ussd? 
+Unstructured Supplimentary services Data (USSD)
+
+Also reffered to as quick code or Features code.
+
+is a communications protocol used by GSM cellular telephones to communicate with the mobile network operator’s computers.
+
+
+
+
+def multiplication():
+    value1=range(1,6)
+value2=range(1,4)
+for each in range(1,6):
+    for all in range(1,4):
+        res=all *each
+        print(f"{each}*{all}={res}")
+    print()
+multiplication()
+
+
+def showUs():
+    print("this is multiplication table from another function")
+    multiplication()
+
+
+def multiplication():
+    """ this is multiply a range of number"""
+    value1=range(1,6)
+value2=range(1,4)
+for each in range(1,6):
+    for all in range(1,4):
+        res=all *each
+        print(f"{each}*{all}={res}")
+    print()
+multiplication()
+showUs()
